@@ -17,3 +17,7 @@
 .LogoContainer {
     height: 20%;
 }
+
+input[type="file"] {
+    display: none;
+}
