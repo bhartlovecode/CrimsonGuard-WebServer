@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import SideMenu from "./components/SideMenu";
 import Logo from "./components/Logo"
 import './styles/app.css';
+import UploadButton from "./components/UploadButton";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <SideMenu></SideMenu>
         <div className='MainBody'>
           <Logo></Logo>
+          <UploadButton></UploadButton>
         </div>
       </div>
     </div>
