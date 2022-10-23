@@ -9,7 +9,11 @@
 }
 
 .MainBody {
-    height: 90%;
+    height: 95%;
     width: 85%;
     float: left;
+}
+
+.LogoContainer {
+    height: 20%;
 }
