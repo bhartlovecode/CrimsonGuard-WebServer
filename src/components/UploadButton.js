@@ -4,9 +4,9 @@ import { useState } from 'react'
 const UploadButton = () => {
 
     const [fName, setfName] = useState("")
-    const fileUpload = document.getElementById("fileButton")
 
     const handleChange = (e) => {
+        const fileUpload = document.getElementById("fileButton")
         console.log(fileUpload.files[0])
         setfName(fileUpload.files[0].name)
     };
